@@ -1,0 +1,4 @@
+services:
+#    quora_quora.example:
+#        class: Quora\QuoraBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

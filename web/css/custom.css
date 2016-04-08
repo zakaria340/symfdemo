@@ -1,0 +1,67 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.large.text {
+   font-size: 2rem;
+}
+.ui.feed > .event > .content .date {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.sitebar a {
+  color: #666;
+}
+
+.ui.feed .event {
+    border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+    padding-bottom: 0.214286rem;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+.ui.feed > .event > .content {
+  margin-bottom: 10px;
+}
+.ui.grid.container {
+  margin-top: 20px;
+}
+.ui.feed > .event > .content a {
+    margin: 6px;
+}
+
+.sitebar  h2 {
+    margin-bottom: 8px;
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
+    color: #b92b27;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    position: relative;
+    text-transform: none;
+     width: 33%;
+}
+.sitebar .content a{
+    margin-bottom: 4px;
+    color: #666;
+    display: inline-block;
+    margin: 0 0 0 -5px;
+    padding: 4px 5px;
+}
+
+.sitebar .content a.active {
+    background: #ececec none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #666;
+    cursor: default;
+    font-weight: 400;
+}
+.ui.list {
+    margin-bottom: 50px;
+}
+
+
+.ui.menu .item{
+    color: #b92b27  !important;
+}

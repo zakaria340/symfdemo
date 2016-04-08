@@ -1,13 +1,309 @@
+<!-- app/Resources/views/base.html.twig -->
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html"; charset=utf-8" />
+    <title>{% block title %}symblog{% endblock %} - symblog</title>
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    {% block stylesheets %}
+      <link href='http://fonts.googleapis.com/css?family=Irish+Grover' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet/less" type="text/css" href="http://semantic-ui.com/src/definitions/elements/button.less" />
+      <link href="http://semantic-ui.com/dist/semantic.min.css" type="text/css" rel="stylesheet" />
+      <link href="{{ asset('css/screen.css') }}" type="text/css" rel="stylesheet" />
+      <link href="{{ asset('css/custom.css') }}" type="text/css" rel="stylesheet" />
+
+    {% endblock %}
+    
+    
+      <script src="http://semantic-ui.com//javascript/library/jquery.min.js"></script>
+
+<script src="http://semantic-ui.com//dist/semantic.min.js"></script>
+
+    <script src="{{ asset('js/main.js') }}"></script>
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+  </head>
+  <body>
+
+    <div class="ui small fixed  main menu">
+         <div class="ui container">
+      <a class="active item">
+        Home
+      </a>
+      <div class="item">
+        <div class="ui icon input">
+          <input placeholder="Search..." type="text">
+          <i class="search icon"></i>
+        </div>
+      </div>
+      <a class="item">
+        Read
+      </a>
+      <a class="item">
+        Answer
+      </a>
+      <a class="item">
+        Notifications
+      </a>
+      <div class="right menu">
+        <div class="ui dropdown item">
+          Profil <i class="dropdown icon"></i>
+          <div class="menu">
+            <a class="item">English</a>
+            <a class="item">Russian</a>
+            <a class="item">Spanish</a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="ui primary button">Sign Up</div>
+        </div>
+      </div>
+    </div>
+       </div>
+    <div class="ui grid main  container">
+      <div class="four wide column sitebar ui sticky">
+        
+        <div class="ui list">
+          <h2 class="ui ignored">Top Feeds<a class="anchor" id="variations"></a></h2>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="active">Krowlewskie Jadlo</a>
+            </div>
+          </div>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="">Xian Famous Foods</a>
+            </div>
+          </div>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="">Sapporo Haru</a>
+            </div>
+          </div>
+        </div>
+
+      
+           <div class="ui list">
+          <h2 class="ui ignored">Top Feeds<a class="anchor" id="variations"></a></h2>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="active">Krowlewskie Jadlo</a>
+            </div>
+          </div>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="">Xian Famous Foods</a>
+            </div>
+          </div>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="">Sapporo Haru</a>
+            </div>
+          </div>
+        </div>
+           <div class="ui list">
+          <h2 class="ui ignored">Top Feeds<a class="anchor" id="variations"></a></h2>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="active">Krowlewskie Jadlo</a>
+            </div>
+          </div>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="">Xian Famous Foods</a>
+            </div>
+          </div>
+          <div class="item">
+            <i class="map marker icon"></i>
+            <div class="content">
+              <a class="">Sapporo Haru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ten wide column" id="context">
+        <h2 class="ui dividing header">Top questions for You<a class="anchor" id="variations"></a></h2>
+        <div class="ui feed">
+          <div class="event">
+          
+            <div class="content">
+              <div class="date"> Answer written, Photoghraphy, Movies - 2h50min </div> 
+              <a><span class="large text">Is it more difficult to make a successful video game or a successful movie?</span></a>
+              <div class="summary">
+                <a class="ui label">
+                  <img class="ui right spaced avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
+                  Elliot
+                </a>
+                <div class="date">
+                  3 days ago
+                </div>
+              </div>
+              <div class="extra">
+                Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
+              </div>
+              <div class="meta">
+                <div class="actions">
+                  <button class="mini ui   button reply">
+                    Upvote | <b>16</b>
+                  </button>
+                  <a class="save">Downvote</a>
+                  <a class="hide">Comments</a>
+                  <a>
+                    <i class="expand icon"></i>
+                    Détail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+             <div class="event">
+          
+            <div class="content">
+              <div class="date"> Answer written, Photoghraphy, Movies - 2h50min </div> 
+              <span class="large text">Is it more difficult to make a successful video game or a successful movie?</span>
+              <div class="summary">
+                <a class="ui label">
+                  <img class="ui right spaced avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
+                  Elliot
+                </a>
+                <div class="date">
+                  3 days ago
+                </div>
+              </div>
+              <div class="extra">
+                Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
+              </div>
+              <div class="meta">
+                <div class="actions">
+                  <button class="mini ui   button reply">
+                    Upvote
+                  </button>
+                  <a class="save">Downvote</a>
+                  <a class="hide">Comments</a>
+                  <a>
+                    <i class="expand icon"></i>
+                    Détail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+             <div class="event">
+          
+            <div class="content">
+              <div class="date"> Answer written, Photoghraphy, Movies - 2h50min </div> 
+              <span class="large text">Is it more difficult to make a successful video game or a successful movie?</span>
+              <div class="summary">
+                <a class="ui label">
+                  <img class="ui right spaced avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
+                  Elliot
+                </a>
+                <div class="date">
+                  3 days ago
+                </div>
+              </div>
+              <div class="extra">
+                Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
+              </div>
+              <div class="meta">
+                <div class="actions">
+                  <button class="mini ui   button reply">
+                    Upvote
+                  </button>
+                  <a class="save">Downvote</a>
+                  <a class="hide">Comments</a>
+                  <a>
+                    <i class="expand icon"></i>
+                    Détail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+             <div class="event">
+          
+            <div class="content">
+              <div class="date"> Answer written, Photoghraphy, Movies - 2h50min </div> 
+              <span class="large text">Is it more difficult to make a successful video game or a successful movie?</span>
+              <div class="summary">
+                <a class="ui label">
+                  <img class="ui right spaced avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
+                  Elliot
+                </a>
+                <div class="date">
+                  3 days ago
+                </div>
+              </div>
+              <div class="extra">
+                Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
+              </div>
+              <div class="meta">
+                <div class="actions">
+                  <button class="mini ui   button reply">
+                    Upvote
+                  </button>
+                  <a class="save">Downvote</a>
+                  <a class="hide">Comments</a>
+                  <a>
+                    <i class="expand icon"></i>
+                    Détail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+             <div class="event">
+          
+            <div class="content">
+              <div class="date"> Answer written, Photoghraphy, Movies - 2h50min </div> 
+              <span class="large text">Is it more difficult to make a successful video game or a successful movie?</span>
+              <div class="summary">
+                <a class="ui label">
+                  <img class="ui right spaced avatar image" src="http://semantic-ui.com/images/avatar/small/elliot.jpg">
+                  Elliot
+                </a>
+                <div class="date">
+                  3 days ago
+                </div>
+              </div>
+              <div class="extra">
+                Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
+              </div>
+              <div class="meta">
+                <div class="actions">
+                  <button class="mini ui   button reply">
+                    Upvote
+                  </button>
+                  <a class="save">Downvote</a>
+                  <a class="hide">Comments</a>
+                  <a>
+                    <i class="expand icon"></i>
+                    Détail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui bottom attached button">Button after grid</div>
+
+  {% block javascripts %}{% endblock %}
+</body>
 </html>

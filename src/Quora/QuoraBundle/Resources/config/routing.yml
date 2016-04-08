@@ -1,0 +1,3 @@
+quora_quora_homepage:
+    path:     /
+    defaults: { _controller: QuoraQuoraBundle:Default:index }

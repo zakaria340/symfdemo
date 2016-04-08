@@ -3,14 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/html/symf/src/Blogger/BloggerBundle/Resources/views/Default/index.html.twig</file>
-            <file>file:/var/www/html/symf/composer.lock</file>
-            <file>file:/var/www/html/symf/src/Blogger/BloggerBundle/Resources/config/routing.yml</file>
-            <file>file:/var/www/html/symf/composer.json</file>
-            <file>file:/var/www/html/symf/app/config/routing.yml</file>
-            <file>file:/var/www/html/symf/src/Blogger/BloggerBundle/Tests/Controller/DefaultControllerTest.php</file>
-            <file>file:/var/www/html/symf/src/Blogger/BloggerBundle/BloggerBloggerBundle.php</file>
-            <file>file:/var/www/html/symf/src/Blogger/BloggerBundle/Controller/DefaultController.php</file>
+            <file>file:/var/www/html/symf/app/config/config.yml</file>
+            <file>file:/var/www/html/symf/app/config/parameters.yml</file>
+            <file>file:/var/www/html/symf/web/js/main.js</file>
+            <file>file:/var/www/html/symf/app/Resources/views/base.html.twig</file>
+            <file>file:/var/www/html/symf/web/css/custom.css</file>
+            <file>file:/var/www/html/symf/app/config/security.yml</file>
+            <file>file:/var/www/html/symf/src/Quora/QuoraBundle/Entity/UserRepository.php</file>
+            <file>file:/var/www/html/symf/src/Quora/QuoraBundle/Entity/User.php</file>
+            <file>file:/var/www/html/symf/app/Resources/views/default/index.html.twig</file>
+            <file>file:/var/www/html/symf/src/Quora/QuoraBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/var/www/html/symf/web/css/screen.css</file>
+            <file>file:/var/www/html/symf/src/Quora/QuoraBundle/Resources/views/layout.html.twig</file>
         </group>
     </open-files>
 </project-private>
